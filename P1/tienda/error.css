@@ -1,0 +1,16 @@
+body{
+    background-color: #a519aa;
+    text-align: center;
+    background-image: url("fotos/gatos.gif");
+}
+
+.image{
+    width: 900px;
+}
+h1{
+    color: rgb(25, 0, 255);
+}
+h4{
+    margin-left: 662px;
+    margin-top: -4px;
+}

@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const PUERTO = 9000;
+const PUERTO = 8080;
 
 // Se crea el servidor
 const server = http.createServer((req, res) => {

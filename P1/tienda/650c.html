@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset = "utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel = "stylesheet" href="tienda.css">
+        <link rel = "stylesheet" href="motos.css">
+        <link rel="stylesheet" href="presion.css">
+        <!-- Link de las fuentes que quiero usar -->
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,600,700,800,900" rel="stylesheet">
+    
+        <script src="jq.js"></script>
+        <script src="b.js"></script>
+        <script src="presion.js"></script>
+        
+        <link rel="icon" href="fotos/foto1.webp" width="40px">
+
+        <title>Tu mejor Moto</title>
+        <h6>
+          <a href="tienda.html"><img src="fotos/foto2.jpg" alt="logo"  ;=""></a>
+        </h6>
+    </head>
+
+    <body>
+    <div class="cabecera">
+        <br>
+        <a href="error.html"><img src="fotos/carro.png" alt="" width="30px" ;=""></a>..
+        <a href="error.html"><img src="fotos/perfil.jpeg" alt="" width="30px" ;=""></a>..
+        <a href="error.html"><img src="fotos/buscar.jpeg" width="30px" ;=""></a>...
+    </div>
+    <div class="cuerpo">
+        <aside>
+            <div id="header">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="">Productos➤<br>________________________</a>
+                            <ul>
+                                <li><a href="49c.html">Motos 49cc</a></li>
+                                <li><a href="125c.html">Motos 125cc</a></li>
+                                <li><a href="650c.html">Motos hasta 650cc</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Acerca de➤<br>________________________</a>
+                            <ul style="margin-top:-16px;">
+                                <li><a href="legal.html">Aviso legal</a></li>
+                                <li><a href="cookies.html">Política de cookies</a></li>
+                                <li><a href="privacidad.html">Política de privacidad</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="info.html">Contacto<br>________________________</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <main>
+
+<section>
+    <!-- Producto -->
+    <div class="card estilo">
+        <div class="img-container">
+            <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+          <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal6">
+            <img src="fotos/moto650_1.png" alt="">
+        </button>
+      <!-- Página Propia del Producto -->
+      <div class="modal fade"  id="demoModal6"  tabindex="-1" role="dialog"
+           aria-labelledby="demoModal6" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+              <div class="modal-content">
+                  <div class="container-fluid">
+                      <!-- Botón para cerrar la página específica-->
+                      <button type="button" class="close" data-dismiss="modal"
+                              aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                      <div class="row">
+                          <!-- Foto del producto -->
+                          <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_1.png')">
+                          </div>
+                          <!-- Información del producto -->
+                          <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                              <h2 class="pt-sm-3">Ninja MY</h2>
+                              <h3>7500€</h3>
+                              <p class="text-muted">
+                                Marca: Kawasaki<br>
+                                Color: Verde, Morado y Negro <br>
+                                Año: 2023<br>
+                                Cilindrada: 650cc<br>
+                               
+                              </p><br>
+                              <!-- Botón de favorito -->
+                              <span class="favorite">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                              </span>
+                              <!-- Botón de añadir al carrito -->
+                              <form>
+                                  <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Página Propia del Producto -->
+      <!-- Los botones e información que están en cada foto -->
+          <span class="price">7500€</span>
+        <p>Ninja MY</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>  
+        </div>
+
+    </div>
+    <!-- Producto -->
+    <div class="card estilo">
+        <div class="img-container">
+            <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+          <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal7">
+              <img src="fotos/moto650_2.jpg" alt="">
+          </button>
+        <!-- Página Propia del Producto -->
+        <div class="modal fade"  id="demoModal7"  tabindex="-1" role="dialog"
+             aria-labelledby="demoModal7" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+                <div class="modal-content">
+                    <div class="container-fluid">
+                        <!-- Botón para cerrar la página específica-->
+                        <button type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <!-- Foto del producto -->
+                            <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_2.jpg')">
+                            </div>
+                            <!-- Información del producto -->
+                            <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                                <h2 class="pt-sm-3">Yamaha MT</h2>
+                                <h3>8000€</h3>
+                                <p class="text-muted">
+                                  Marca: Yamaha<br>
+                                  Color: Unico<br>
+                                  Año: 2023<br>
+                                  Cilindrada: 650cc<br>
+                                 
+                                </p><br>
+                                <!-- Botón de favorito -->
+                                <span class="favorite">
+                                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                                </span>
+                                <!-- Botón de añadir al carrito -->
+                                <form>
+                                    <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Página Propia del Producto -->
+        <!-- Los botones e información que están en cada foto -->
+        <span class="price">8000€</span>
+        <p>Yamaha MT</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>  
+        </div>
+
+    </div>
+    <!-- Producto -->
+    <div class="card estilo">
+          <div class="img-container">
+              <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+            <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal8">
+              <img src="fotos/moto650_3.jpg" alt="">
+          </button>
+        <!-- Página Propia del Producto -->
+        <div class="modal fade"  id="demoModal8"  tabindex="-1" role="dialog"
+             aria-labelledby="demoModal8" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+                <div class="modal-content">
+                    <div class="container-fluid">
+                        <!-- Botón para cerrar la página específica-->
+                        <button type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <!-- Foto del producto -->
+                            <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_3.jpg')">
+                            </div>
+                            <!-- Información del producto -->
+                            <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                                <h2 class="pt-sm-3">Ducati Desmo</h2>
+                                <h3>5000€</h3>
+                                <p class="text-muted">
+                                  Marca: Ducati<br>
+                                  Color: Unico<br>
+                                  Año: 2023<br>
+                                  Cilindrada: 500cc<br>
+                                  
+                                </p><br>
+                                <!-- Botón de favorito -->
+                                <span class="favorite">
+                                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                                </span>
+                                <!-- Botón de añadir al carrito -->
+                                <form>
+                                    <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Página Propia del Producto -->
+        <!-- Los botones e información que están en cada foto -->
+          <span class="price">5000€</span>
+        <p>Ducati Desmo</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>   
+        </div>
+    </div>
+    <!-- Producto -->
+    <div class="card estilo">
+      <div class="img-container">
+          <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+        <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal9">
+          <img src="fotos/moto650_4.jpg" alt="">
+      </button>
+    <!-- Página Propia del Producto -->
+    <div class="modal fade"  id="demoModal9"  tabindex="-1" role="dialog"
+         aria-labelledby="demoModal9" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <!-- Botón para cerrar la página específica-->
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <!-- Foto del producto -->
+                        <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_4.jpg')">
+                        </div>
+                        <!-- Información del producto -->
+                        <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                            <h2 class="pt-sm-3">Yamaha Panigale</h2>
+                            <h3>12000€</h3>
+                            <p class="text-muted">
+                                Marca: Yamaha<br>
+                                Color: Unico<br>
+                                Año: 2023<br>
+                                Cilindrada: 650cc<br>
+                            </p><br>
+                            <!-- Botón de favorito -->
+                            <span class="favorite">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                            </span>
+                            <!-- Botón de añadir al carrito -->
+                            <form>
+                                <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Página Propia del Producto -->
+    <!-- Los botones e información que están en cada foto -->
+          <span class="price">12000€</span>
+        <p>Yamaga Panigale</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>  
+        </div>
+    </div>
+    <!-- Producto -->
+    <div class="card estilo">
+      <div class="img-container">
+          <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+        <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal10">
+          <img src="fotos/moto650_5.jpg" alt="">
+      </button>
+    <!-- Página Propia del Producto -->
+    <div class="modal fade"  id="demoModal10"  tabindex="-1" role="dialog"
+         aria-labelledby="demoModal10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <!-- Botón para cerrar la página específica-->
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <!-- Foto del producto -->
+                        <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_5.jpg')">
+                        </div>
+                        <!-- Información del producto -->
+                        <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                            <h2 class="pt-sm-3">Harley Davidson Fat Bob</h2>
+                            <h3>10000€</h3>
+                            <p class="text-muted">
+                              Marca: Harley Davidson<br>
+                              Color: Unico<br>
+                              Año: 2023<br>
+                              Cilindrada: 650cc<br>
+                            </p><br>
+                            <!-- Botón de favorito -->
+                            <span class="favorite">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                            </span>
+                            <!-- Botón de añadir al carrito -->
+                            <form>
+                                <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Página Propia del Producto -->
+    <!-- Los botones e información que están en cada foto -->
+          <span class="price">10000€</span>
+        <p>Harley Davidson Fat Bob</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>   
+        </div>
+    </div>
+    <!-- Producto -->
+    <div class="card estilo">
+      <div class="img-container">
+          <!-- Al pulsar la imagen se ven las especificaciones del producto -->
+        <button  type="button"  class="btn btn-dark btn-cta" data-toggle="modal" data-target="#demoModal11">
+          <img src="fotos/moto650_6.jpg" alt="">
+      </button>
+    <!-- Página Propia del Producto -->
+    <div class="modal fade"  id="demoModal11"  tabindex="-1" role="dialog"
+         aria-labelledby="demoModal11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-lg  " role="document">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <!-- Botón para cerrar la página específica-->
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <!-- Foto del producto -->
+                        <div class="col-md-6 bg-img rounded-left m-h-60 d-none d-sm-block" style="background-image: url('fotos/moto650_6.jpg')">
+                        </div>
+                        <!-- Información del producto -->
+                        <div class="col-md-6 py-5 px-sm-5 my-auto ">
+                            <h2 class="pt-sm-3">Aprilia Pegaso</h2>
+                            <h3>8000€</h3>
+                            <p class="text-muted">
+                              Marca: Aprilia<br>
+                              Color: Unico<br>
+                              Año: 2023<br>
+                              Cilindrada: 650cc<br>
+                            </p><br>
+                            <!-- Botón de favorito -->
+                            <span class="favorite">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                            </span>
+                            <!-- Botón de añadir al carrito -->
+                            <form>
+                                <button type="submit" class="btn btn-cstm-dark btn-block btn-cta" data-dismiss="modal" aria-label="Close">Añadir al carrito</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Página Propia del Producto -->
+    <!-- Los botones e información que están en cada foto -->
+          <span class="price">3075€</span>
+        <p>Expositor</p>
+        <!-- Botón de añadir al carrito -->
+        <a href="">Añadir a carrito</a>  
+    </div>
+</div>
+</section>
+</main>
+
+</div>
+</body>
