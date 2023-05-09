@@ -1,0 +1,128 @@
+/*Estilo del encabezado principal*/
+h6 {
+    margin-left: 40%;
+}
+
+/*Estilo general del cuerpo*/
+.cuerpo{
+    display: flex;
+    font-family: "Calibri";
+    width:100%;
+}
+
+/*Estilo general de mi caja lateral*/
+aside{
+    color: white;
+    text-align: center;
+    max-width: 60mm;
+    min-width: 60mm;
+    margin: 0px;
+    margin-top: 15px;
+    text-align: justify;
+    background-color: #aa1919;
+    width: 200px;
+}
+
+.cabecera{
+    background-color: #aa1931;
+    color:#aa1919;
+    width: 100%;
+    height: 60px;
+    margin-bottom: -20px;
+    text-align: right;
+}
+
+/*Estilo general de mi caja principal*/
+main{
+    max-width: 250mm;
+    padding-block-start: 5%;
+    padding-left: 5%;
+}
+
+/*Vamos a probar a hacer el slider*/
+.slider{
+    width: 95%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+ /* Lo que hay dentro de la celda tiene animacion que no acaba */
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+/* Establezco los cambios de fotos cada x tienpo */
+@keyframes cambio {
+    /* Del 0 al 20% del tiempo total de la animacion
+    (20s que he establecido arriba) el margen es 0,
+    por lo que se ve la primera foto */
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+/* CREANDO SUBMENUS*/
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family: sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width:500px;
+    margin:0 auto;
+}
+
+.li > ul {
+    float:right;
+}
+
+.nav li a {
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+    right:-140px;
+    top:-52px;
+    background-color: #000000;
+}

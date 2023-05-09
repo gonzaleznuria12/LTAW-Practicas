@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
+  <title>Whatsapp</title>
+
+  <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="chat.css">
+
+  <!-- Cliente que usa los Sockets.io-->
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+<table>
+    <tr>
+        <!-- Zona de la caja establecer nombre usuario -->
+        <td width="500px">
+            <div id="box1">
+                <h1>Jugadores:</h1><br>
+                    <h3>Curry: <span id="info1" class="ppt"></h3></span><br>
+                    <h3>Lebron: <span id="info2" class="ppt"></h3></span><br>
+                    <h3>Anteto: <span id="info3" class="ppt"></h3></span><br>
+
+                <h1>Versiones:</h1><br>
+                <h3>Node: <span id="node" class="ppt"></h3></span><br>
+                <h3>Chrome: <span id="chrome" class="ppt"></h3> </span><br>
+                <h3>Electron: <span id="electron1" class="ppt"></h3></span><br>
+
+                <h1>usuarios en línea:</h1><br>
+                <h3><span id="numus" class="ppt"></span></h3><br>
+
+                <h1>URL Usuario:</h1><br>
+
+                <h3><span id="ip1" class="ppt"></span></h3><br>
+
+                <h1><input type="button" value="Botón de prueba" id="btn_test"></h1>
+            </div>
+        </td>
+        <td>
+            <!-- Zona de la caja del chat -->
+            <div class="container">
+                <div class="chat">
+                    <!-- División cabecera, zona donde está la información del grupo -->
+                    <div class="cabecera">
+                        <div class="perfil">
+                            <div class="izquierda">
+                                <img src="fotos/atras.png" class="atras" width="30px">
+                                <img src="fotos/icono2.jpg" class="pp" width="30px" style="background-color: white;">
+                                <h2>Grupo Baloncesto<h2>
+                                <div class="derecha">
+                                    <img src="fotos/video.png" class="icono">
+                                    <img src="fotos/llamda.png" class="icono">
+                                    <img src="fotos/options.png" class="icono">
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Zona donde se ven los mensajes (pantalla del chat) -->
+                    <div class="chat-box">
+                        <div class="chat-r">
+                            <div class="sp"></div>
+                            <p id="display"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

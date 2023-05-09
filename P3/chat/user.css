@@ -1,0 +1,42 @@
+/* Estilo de la caja general de introduccion de usuario */
+#box {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background: #036055;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+/* Estilo del titulo */
+#box h1 {
+    color: white;
+}
+
+/* Establezco un margen en el input para que
+se separe un poco del titulo */
+#box .form .item {
+    margin-top: 15px;
+}
+
+/* Estilo del input donde escribes */
+#box .form .item input {
+    width: 180px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 3px solid white;
+    padding: 5px 10px;
+    background: #036055;
+    color: #ffffff;
+}
+
+/* Estilo de la caja donde se escribe el usuario */
+#message-box {
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}

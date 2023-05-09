@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+  
+  .card{
+    width: 33.333333%;
+  }
+  
+  .estilo{
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .estilo .img-container{
+    overflow: hidden;
+    position: relative;
+    margin-right: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .estilo .img-container img{
+    width: 100%;
+    margin-right: 100px;
+  }
+  
+  .estilo .img-container .price{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 38px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: white;
+    padding: 10px;
+  }
+  
+  .estilo .favorite{
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-bottom: 28px;
+    border: none;
+  }
+  
+  .estilo .favorite svg{
+    transform: translate(13px, 13px)
+  }
+  
+  .estilo .favorite:hover{
+    background: red;
+  }
+  
+  .estilo .favorite:hover svg{
+    fill: white;
+  }
+  
+  .estilo .favorito:after{
+    background: red;
+  }
+    
+  .estilo a{
+    display: inline-block;
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid black;
+  }
+  
+  .estilo a:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whatsapp</title>
+
+  <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="chat.css">
+  <link rel="stylesheet" href="user.css">
+
+  <link rel="icon" href="fotos/WhatsApp_icon.png" width="40px">
+
+  <!-- Cliente que usa los Sockets.io-->
+  <script src="persona.js" defer></script>
+
+</head>
+
+<body>
+<table style="border-spacing:50px">
+    <tr>
+        <!-- Zona de la caja establecer nombre usuario -->
+        <td width="500px">
+            <div id="box">
+                <h1 id="us">Introduce tu usuario:</h1>
+                <div class="form">
+                    <div class="item">
+                       <input type="text" placeholder="user name..." autocomplete="off" id="user">
+                    </div>
+                </div>
+                <h1 id="userestablecido"></h1>
+            </div>
+        </td>
+        <td>
+            <!-- Zona de la caja del chat -->
+            <div class="container">
+                <div class="chat">
+                    <!-- División cabecera, zona donde está la información del grupo -->
+                    <div class="cabecera">
+                        <div class="perfil">
+                            <div class="izquierda">
+                                <img src="fotos/atras.png" class="atras" width="30px">
+                                <img src="fotos/icono2.jpg" class="pp" width="30px" style="background-color: white;">
+                                <h2>Grupo Baloncesto</h2>
+                            </div>
+                            <div class="derecha">
+                                <img src="fotos/video.png" class="icono">
+                                <img src="fotos/llamda.png" class="icono">
+                                <img src="fotos/options.png" class="icono">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Zona donde se ven los mensajes (pantalla del chat) -->
+                    <div class="chat-box">
+                        <div class="chat-r">
+                            <div class="sp"></div>
+                                <p id="display"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Zona donde está el input para escribir los mensajes -->
+                    <div class="chat-footer">
+                        <img src="fotos/balon.jpeg" class="emo">
+                        <input type="text" placeholder="Type a message..." autocomplete="off" id="msg_entry" class="escribir">
+                        <div class="iconos">
+                            <img src="fotos/docs.png">
+                            <img src="fotos/camara2.png">
+                        </div>
+                        <img src="fotos/audio.jpeg" class="mic">
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

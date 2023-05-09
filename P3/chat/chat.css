@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container {
+	width: 500px;
+	margin: auto;
+}
+ 
+.chat {
+	display: flex;
+	flex-direction: column;
+	height: 88vh;
+	background: #f1f0e8;
+}
+.cabecera {
+	display: flex;
+	cursor: pointer;
+}
+
+.perfil {
+	width: 100%;
+	background: #036055;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding: 0px 10px;
+	position: relative;
+}
+
+.perfil .pp {
+	width: 70px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 32px;
+}
+
+.perfil .atras {
+	display: inline-block;
+	width: 30px;
+	position: absolute;
+	top: 19px;
+	cursor: pointer;
+}
+
+.perfil h2 {
+	display: inline-block;
+	line-height: 60px;
+	vertical-align: bottom;
+	color: #fff;
+	font-size: 20px;
+}
+
+.derecha .icono {
+	display: inline-block;
+	width: 25px;
+	margin-left: 10px;
+}
+
+.perfil .izquierda {
+	flex: 1;
+}
+
+
+.chat-box {
+	background: url('../img/fondo.jpeg');
+	background-attachment: fixed;
+	padding-left: 20px;
+	overflow-y: scroll;
+	flex: 1;
+}
+
+.chat-r {
+	display: flex;
+}
+
+.chat-r .sp {
+	flex: 1;
+}
+
+.chat-box .mess {
+	max-width: 300px;
+	background: #F7FCF6;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+
+.chat-box .mess-r {
+    background: #E2FFC7;
+}
+
+
+h5 {
+    background: black;
+	color:gray;
+	opacity:60%;
+	max-width: 300px;
+	padding: 10px;
+	margin-top:20px;
+	border-radius: 10px;
+	margin-right: 170px;
+	cursor: pointer;
+	background-attachment: fixed;
+	flex: 1;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+	background: #aaa;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+
+.chat-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+    background-color: white;
+}
+
+.chat-footer .escribir {
+	display: block;
+	flex: 1;
+	width: 100%;
+	height: 50px;
+	border-radius: 60px;
+	margin: 5px;
+	padding: 10px;
+	outline: none;
+	font-size: 19px;
+	padding-left: 40px;
+	padding-right: 90px;
+	border: 2px solid #ccc;
+	color: rgb(250, 2, 2);
+	resize: none;
+}
+/* estilo de la zona de la foto del microfono */
+.chat-footer .mic {
+	display: block;
+	width: 55px;
+	height: 55px;
+	margin-right: 20px;
+}
+/* estilo de la zona donde están los emoticonos */
+.chat-footer .emo{
+	display: block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+}
+/* estilo de los iconos */
+.chat-footer .iconos {
+	position: absolute;
+	right: 100px;
+	top: 10px;
+}
+/* estilo específico de las imagenes de los iconos */
+.chat-footer .iconos img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
