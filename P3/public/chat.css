@@ -1,0 +1,37 @@
+body {
+    background-image: url(fondo.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px blue;
+}
+
+h3 {
+    text-shadow: 2px 2px blue;
+}
+
+#msg_entry {
+    text-align: center;
+    border-color: blue;
+    width: 50%;
+    height: 30px;
+}
+
+#display {
+    border-style: outset;
+    border-width: 15px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: lightskyblue;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-size: 25px;
+    overflow: scroll;
+    padding-left: 2%;
+    padding-left: 2%;
+    padding-bottom: 0%;
+}

@@ -210,7 +210,7 @@ con sus estilos específicos para cada cosa */
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    float: left;
+    
 }
 
 /* ASl pasar por encima, el botón se 'ilumina' (cambia de color, mi intención es crear un efecto óptico)*/
