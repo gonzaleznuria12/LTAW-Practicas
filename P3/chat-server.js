@@ -3,7 +3,7 @@ const express = require('express');
 const socket = require('socket.io');
 const colors = require('colors');
 
-const PUERTO = 9090;
+const PUERTO = 9000;
 
 const commandos = 'Los comandos disponibles son: /help, /list, /hello y /date';
 const welcome = '<h3>~~~~~ BIENVENIDO ~~~~~</h3>';
