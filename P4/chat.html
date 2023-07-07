@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='icon' href="pirata.png">
+        <link rel="stylesheet" href="chat.css">
+        <title>Chat PIRATA</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="chat-client.js" defer></script>
+    </head>
+    <body>
+        <div align="center">
+            <p id="titulo">TU CHAT PIRATA</p>
+            <div id="usuario">
+                Nombre de usuario:
+                <input type="text" id="user">
+            </div>
+            <div id="ventana">
+                <p id="display" align = "left"></p>
+            </div>
+            <br>
+            <span>
+                <input type="text" id="mensaje" placeholder="Escribir aqui..."></input>
+                <button id="enviar">Enviar</button>
+            </span>
+        </div>
+    </body>
+</html>

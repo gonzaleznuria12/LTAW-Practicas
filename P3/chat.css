@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'heroe';
+    src: url("foto1.jpg");
+}
+body{
+    background: no-repeat;
+    background-image: url(foto1.jpg);
+    background-size: cover;
+}
+h3{
+    color:rgb(249, 183, 229);
+    font-family: "heroe";
+}
+
+h5{
+    font-size: 20px;
+    color: rgb(0, 0, 0)
+}
+p{
+    font-size: 20px;
+    color:white;
+}
+button{
+    border-radius: 10px;
+    border-color: rgb(233, 89, 89);
+    font-family: 'heroe';
+    font-size: 25px;
+    background-color: rgb(154, 0, 0);
+}
+
+#signo{
+    color:white;
+    font-family: "heroe";
+}
+#ventana{
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(110, 43, 43, 0.834);
+    overflow-y: scroll;
+    padding: 20px
+}
+
+#titulo{
+    font-family: "heroe";
+    font-size: 50px;
+    color: rgb(154, 0, 0);
+    
+}
+#user{
+    width: 200px;
+    color:tomato;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#usuario{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "heroe";
+    margin-bottom: 15px;
+}
+
+#new{
+    color:rgb(128, 232, 253);
+}
+#bye{
+    color:rgb(228, 238, 92);
+}
+#mensaje{
+    width: 800px;
+    font-size: 20px;
+    background-color: rgb(144, 27, 199);
+}
+
